@@ -14,3 +14,10 @@ RUN conda env export --name nf-core-rnaseq-1.4.3dev > nf-core-rnaseq-1.4.3dev.ym
 # Instruct R processes to use these empty files instead of clashing with a local version
 RUN touch .Rprofile
 RUN touch .Renviron
+
+#Add custom scripts
+RUN mkdir -p /scripts
+COPY *.sh /scripts
+WORKDIR /scripts
+RUN chmod +x *.sh
+
