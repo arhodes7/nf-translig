@@ -1,4 +1,4 @@
-FROM FROM nfcore/base:1.10.2
+FROM arhodes77/rnaseq-trinity:dsl2
 LABEL authors="Arhodes updates, Phil Ewels, Rickard Hammarén" \
       description="Docker image containing all software requirements for TransLig assembly"
 
