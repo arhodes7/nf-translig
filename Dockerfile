@@ -1,6 +1,6 @@
-FROM arhodes77/rnaseq-trinty:dsl2
+FROM FROM nfcore/base:1.10.2
 LABEL authors="Arhodes updates, Phil Ewels, Rickard Hammarén" \
-      description="Docker image containing all software requirements for the nf-core/rnaseq pipeline plus trinity assembly"
+      description="Docker image containing all software requirements for TransLig assembly"
 
 # Install the conda environment
 COPY environment.yml /
