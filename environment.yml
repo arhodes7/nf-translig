@@ -2,6 +2,8 @@ name: TransLiG
 channels:
   - biobuilds
   - defaults
+  - bioconda
+  - conda-forge
 dependencies:
   - python=3.7.0
   - boost=1.70.0
