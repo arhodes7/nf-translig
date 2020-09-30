@@ -1,4 +1,6 @@
-FROM arhodes77/rnaseq-trinity:dsl2
+FROM continuumio/miniconda
+MAINTAINER XXX <email>
+
 LABEL authors="Arhodes updates, Phil Ewels, Rickard Hammarén" \
       description="Docker image containing all software requirements for TransLig assembly"
 
